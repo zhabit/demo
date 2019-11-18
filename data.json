@@ -12,14 +12,14 @@
       "name": "Lifejacket",
       "category": "Watersports",
       "description": "Protective and fashionable",
-      "price": 48.95
+      "price": "48.96"
     },
     {
       "id": 3,
       "name": "Soccer Ball",
       "category": "Soccer",
       "description": "FIFA-approved size and weight",
-      "price": 19.50
+      "price": 19.5
     },
     {
       "id": 4,
@@ -69,5 +69,27 @@
     "Soccer",
     "Chess"
   ],
-  "orders": []
+  "orders": [
+    {
+      "name": "zha wenwen",
+      "email": "1178449100@qq.com",
+      "address": "hangzhou",
+      "city": "hangzhou",
+      "zip": "310051",
+      "cartLines": [
+        {
+          "product": {
+            "id": 1,
+            "name": "Kayak",
+            "category": "Watersports",
+            "description": "A boat for one person",
+            "price": 275
+          },
+          "quantity": 2
+        }
+      ],
+      "id": 1,
+      "shipped": true
+    }
+  ]
 }
