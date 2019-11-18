@@ -1,6 +1,7 @@
 import Axios from "axios";
 
-const loginUrl = "http://localhost:3500/login";
+//const loginUrl = "http://localhost:3500/login";
+const loginUrl = "/api/login";
 
 export default {
   state: {

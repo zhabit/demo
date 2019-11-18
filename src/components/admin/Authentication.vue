@@ -30,8 +30,10 @@ export default {
   components: { ValidationError },
   data: function() {
     return {
-      username: "admin",
-      password: "secret",
+      // username: "admin",
+      // password: "secret",
+      username: null,
+      password: null,
       showFailureMessage: false
     };
   },
@@ -44,7 +46,7 @@ export default {
   },
   methods: {
     ...mapActions(["authenticate"]),
-    
+
     async handleAuth() {
       this.$v.$touch();
       if (!this.$v.$invalid) {
