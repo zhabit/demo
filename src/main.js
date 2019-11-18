@@ -6,7 +6,7 @@ Vue.config.productionTip = false
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css"
 
-import store from "./store/index";
+import store from "./store";
 import router from "./router";
 
 Vue.filter("currency", (value) => new Intl.NumberFormat("zh-CN",

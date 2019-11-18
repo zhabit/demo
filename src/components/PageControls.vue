@@ -12,7 +12,7 @@
         <button
           v-for="i in pageNumbers"
           v-bind:key="i"
-          class="btn btn-secpmdary"
+          class="btn btn-secondary"
           v-bind:class="{ 'btn-primary': i == currentPage }"
           v-on:click="setCurrentPage(i)"
         >{{ i }}</button>
